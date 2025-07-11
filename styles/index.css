@@ -3,6 +3,39 @@ body {
     margin:0;
 }
 
+.bonheur-royale-regular {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header-title {
+    background-color: #25283d;
+    color: #c9d7f8;
+    text-align: center;
+    font-size: 60;
+    padding-top: 20;
+    padding-bottom: 10;
+    font-family: 'Bonheur Royale';
+}
+
+hr {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 2;
+}
+
+hr.under-title {
+    color:#c9d7f8;
+    margin-left: 5;
+    margin-right: 5;
+}
+
+/* #title-bar-div {
+    margin: 10
+} */
+
 a{
     text-decoration: none;
     color:#c9d7f8
