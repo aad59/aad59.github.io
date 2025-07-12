@@ -1,8 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
 
 body {
     background-color: #c9d7f8;
     margin:0;
+}
+
+img {
+    width: 100%;
+    mask-image: radial-gradient(circle, black 60%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.img-text {
+    position: absolute;
+    top: 70;
+    left: 50;
+    color: #454B73;
+    font-family: 'Merriweather';
+    font-size: 30;
 }
 
 .bonheur-royale-regular {
@@ -10,6 +41,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 
 #header-title {
     background-color: #25283d;
