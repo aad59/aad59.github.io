@@ -5,6 +5,14 @@ body {
     margin:0;
 }
 
+p {
+    color: #25283d;
+    text-align: center;
+    margin: 30;
+    margin-top: 50;
+    font-family: "Merriweather";
+}
+
 img {
     width: 100%;
     mask-image: radial-gradient(circle, black 60%, transparent 100%);
