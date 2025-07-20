@@ -3,7 +3,9 @@
 /* page defaults */
 body {
     background-color: #c9d7f8;
+    color: #25283d;
     margin:0;
+    font-family: "Merriweather";
 }
 
 /* google fonts */
@@ -22,19 +24,42 @@ body {
 
 /* paragraph defaults */
 p {
-    color: #25283d;
     text-align: center;
     margin: 30;
     margin-top: 50;
-    font-family: "Merriweather";
+}
+
+h1 {
+    text-align: center;
+    margin: 30;
+    
+}
+
+h2 {
+    margin: 30;
+}
+
+h3 {
+    margin: 30;
+}
+
+h4 {
+    margin: 30;
 }
 
 /* image defaults */
 img {
-    width: 100%;
+    width: 50%;
+    margin: auto;
+    display: block;
     mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
     -webkit-mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
 }
+
+#homeimage {
+    width:100%;
+}
+
 
 /* homepage image */
 .img-container {
@@ -49,7 +74,6 @@ img {
     top: 70;
     left: 50;
     color: #454B73;
-    font-family: 'Merriweather';
     font-size: 30;
 }
 
