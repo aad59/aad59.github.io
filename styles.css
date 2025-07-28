@@ -60,6 +60,10 @@ img {
     width:100%;
 }
 
+.row {
+    display: flex;
+}
+
 
 /* homepage image */
 .img-container {
